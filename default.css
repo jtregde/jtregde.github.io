@@ -116,12 +116,12 @@ img.right {
 }
 /* Navbar */
 .navbar {
-    background-color: #333333;
+    background-color: #646161;
     display: flex;
     align-items: center;
     overflow: hidden;
     padding: 0 20px;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .navbar a {
