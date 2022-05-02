@@ -129,15 +129,15 @@ img.right {
 }
 
 #menu li {
-	display: inline;
+	float: left;
 }
 
 #menu a {
 	display: block;
-	float: left;
-	margin-left: 10px;
-	background: #FFFFFF;/*#EDEDED; /*0094E0;*/
-	border: 1px dashed #FFFFFF;
+	/* float: left; */
+	margin-left: 1px;
+	background: #dddddd;/*#EDEDED; /*0094E0;*/
+	border: 1px dashed #dddddd;
 	padding: 1px 10px;
 	text-decoration: none;
 	font-size: 12px;
@@ -149,6 +149,7 @@ img.right {
 }
 
 #menu .active a {
+    background-color: #FFFFFF;
 }
 
 /* Page */
