@@ -119,7 +119,7 @@ img.right {
 /* Menu */
 
 #menu {
-	float: right;
+	float: left;
 }
 
 #menu ul {
