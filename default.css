@@ -144,12 +144,12 @@ img.right {
 }
 
 .navbar ul li a{
-    color: #090909;
+    color: white;
     padding: 24px;
     display: block;
 }
 .navbar a:hover {
-    background-color: darkred;
+    background-color: #73000A;
     color: black;
 }
 
