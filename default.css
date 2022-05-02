@@ -42,10 +42,10 @@ a:link {
 	text-decoration: none;
 }
 
-a:hover, a:active {
+/* a:hover, a:active {
 	text-decoration: none;
 	color: #73000A
-}
+} */
 
 a:visited {
 	color: #003366;
@@ -76,8 +76,6 @@ img.right {
 }
 
 
-
-
 #logo {
 	float: left;
 	height: auto;
@@ -88,7 +86,7 @@ img.right {
 	/*float: left;*/
 	font-size: 34px;
 	color: #73000A;
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Geneva", Verdana, Tahoma, sans-serif;
 }
 
 #logo h1 sup {
@@ -99,6 +97,7 @@ img.right {
 
 #logo h1 a {
 	color: #73000A;
+    font-family: "Geneva", Verdana, Tahoma, sans-serif;
 }
 
 #logo h2 {
@@ -116,29 +115,45 @@ img.right {
 	color: #FFFFFF;
 }
 /* Navbar */
-
-.topnav {
-    background-color: #6a6767;
+.navbar {
+    background-color: #333333;
+    display: flex;
+    align-items: center;
     overflow: hidden;
+    padding: 0 20px;
+    font-size: 24px;
 }
 
-.topnav a {
-    display: block;
+.navbar a {
+    /* display: block;
     float: left;
-    margin-left: 1px;
+    margin-left: 10px;
     text-align: center;
     padding: 1px 10px;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px; */
     color: #090909;
 }
 
-.topnav a:hover {
-    background-color: #ddd;
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li a{
+    color: #090909;
+    padding: 24px;
+    display: block;
+}
+.navbar a:hover {
+    background-color: darkred;
     color: black;
 }
 
-.topnav a.active {
+.navbar a.active {
     background-color: #FFFFFF;
     color: white;
 }
