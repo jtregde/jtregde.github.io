@@ -284,7 +284,8 @@ color: #3B3B3B;
 
 .item .title {
 	margin-bottom: 10px;
-	padding-bottom: 5px; /*	padding-left: 40px; */ /*	background: url(images/img02.jpg) no-repeat left top; */; /*border-bottom: 1px dashed #D1D1D1;*/;
+	padding-bottom: 5px; 
+    padding-left: 5px; /*	background: url(images/img02.jpg) no-repeat left top; */; /*border-bottom: 1px dashed #D1D1D1;*/;
 	border-top: 1px dashed #D1D1D1;
 	/*margin-top: 10px;*/
 	font-size: large; /*	color: #8BCB2F; 	color: #000066;*/;
