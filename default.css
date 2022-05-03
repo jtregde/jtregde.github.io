@@ -201,7 +201,12 @@ img.right {
 	margin: 0 auto;
 	background: #FFFFFF;
 	border: 1px #F0E9D6 solid;
-	padding: 20px 20px;
+	padding: 10px 10px;
+}
+
+/* Supposedly extends background to whole page? */
+#site {
+    overflow-x: hidden;
 }
 
 /* Content */
