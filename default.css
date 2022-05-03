@@ -213,6 +213,7 @@ img.right {
 
 #content {
 	float: inherit;
+    margin-left: 5px;
 	width: 600px;
 	padding-left: 10px;
     padding-right: 10px;
@@ -284,6 +285,7 @@ color: #3B3B3B;
 
 .item .title {
 	margin-bottom: 10px;
+    margin-left: 5px;
 	padding-bottom: 5px; 
     padding-left: 5px; /*	background: url(images/img02.jpg) no-repeat left top; */; /*border-bottom: 1px dashed #D1D1D1;*/;
 	border-top: 1px dashed #D1D1D1;
@@ -298,6 +300,7 @@ color: #3B3B3B;
 }
 */
 .item .entry {
+    margin-left: 5px;
 	color: #353535
 }
 
