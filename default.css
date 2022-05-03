@@ -9,7 +9,7 @@ body {
 	padding: 0;
 	background: #EAEAEA;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
+	font-size: 16px;
 	color: #353535;
 }
 
@@ -125,13 +125,13 @@ img.right {
 }
 
 .navbar a {
-    /* display: block;
+    /* display: block; */
     float: left;
-    margin-left: 10px;
-    text-align: center;
-    padding: 1px 10px;
-    text-decoration: none;
-    font-size: 14px; */
+    /* margin-left: 10px; */
+    /* text-align: center; */
+    /* padding: 1px 10px; */
+    /* text-decoration: none; */
+    /* font-size: 14px; */
     color: #090909;
 }
 
@@ -207,7 +207,7 @@ img.right {
 /* Content */
 
 #content {
-	float: left;
+	float: inherit;
 	width: 600px;
 	padding-left: 10px;
 }
