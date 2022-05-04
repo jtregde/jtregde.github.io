@@ -214,7 +214,7 @@ img.right {
 #content {
 	float: inherit;
     margin-left: 5px;
-	width: 200px;
+	width: auto;
 	padding-left: 10px;
     padding-right: 10px;
 }
