@@ -198,6 +198,8 @@ img.right {
 
 #page {
 	width: 900px;
+    /* Adjust height as necessary once I fill in the page more. */
+    height: 500;
 	margin: 0 auto;
 	background: #FFFFFF;
 	border: 1px #F0E9D6 solid;
