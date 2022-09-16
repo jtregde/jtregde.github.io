@@ -127,7 +127,7 @@ img.right {
 .navbar a {
     /* display: block; */
     float: left;
-    /* margin-left: 10px; */
+    margin-left: 10px;
     /* text-align: center; */
     /* padding: 1px 10px; */
     /* text-decoration: none; */
@@ -137,7 +137,7 @@ img.right {
 
 .navbar ul {
     margin: 0;
-    padding: 0;
+    padding: 10;
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -197,7 +197,7 @@ img.right {
 /* Page */
 
 #page {
-    width: 900px;
+    width: 1000px;
     /* Adjust height as necessary once I fill in the page more. */
     height: 500px;
 	margin: 0 auto;
