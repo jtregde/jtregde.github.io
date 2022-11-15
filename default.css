@@ -211,6 +211,13 @@ img.right {
     overflow-x: hidden;
 }
 
+#wrapper {
+    float: left;
+    width: 220px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 /* Content */
 
 #content {
@@ -222,9 +229,14 @@ img.right {
 }
 
 #iframe {
+  float:left;
+  margin-left: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 1000px;
   height: 1000px;
   border: 0;
+  clear: both;
 }
 .zoom {
   -webkit-transform: scale(1); /* Safari and Chrome */
