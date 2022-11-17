@@ -22,6 +22,11 @@ Description: A two-column, fixed-width and lightweight template ideal for 1024x7
 </head>
 
 <body>
+    <div class="loader">
+        <div class="cup">
+            <div class="handle"></div>
+        </div>
+    </div>
     <!-- start navbar -->
     <nav class="navbar">
         <ul>
@@ -95,6 +100,22 @@ Description: A two-column, fixed-width and lightweight template ideal for 1024x7
         </div>
         <br>
     </div>
+
+    <script>
+        document.onreadystatechange = function() {
+            if (document.readyState !== "complete") {
+                document.querySelector(
+                  "body").style.visibility = "hidden";
+                document.querySelector(
+                  "#loader").style.visibility = "visible";
+            } else {
+                document.querySelector(
+                  "#loader").style.display = "none";
+                document.querySelector(
+                  "body").style.visibility = "visible";
+            }
+        };
+    </script>
     <!-- end content -->
     <!-- <div style="clear: both;">&nbsp;</div>
 </div> -->
