@@ -21,12 +21,26 @@ Description: A two-column, fixed-width and lightweight template ideal for 1024x7
     <link href="default.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
-    <!-- onload="myFunction()" style="margin:0;" -->
-    <!-- <div class="loader">
+<body onload="myFunction()" style="margin:0;">
+
+    <div id="loader">
         <div class="cup">
-            <div class="handle"></div></div></div> -->
-            <!-- <div id="myDiv" class="animate-bottom"> -->
+            <div class="handle">
+            </div>
+        </div>
+    </div>
+    <script>
+        var myVar;
+    
+        function myFunction() {
+            myVar = setTimeout(showPage, 2000);
+        }
+    
+        function showPage() {
+            document.getElementById("loader").style.display ="none";
+            document.getElementById("myDiv").style.display ="flex";
+        }
+     </script>
     <!-- start navbar -->
     <nav class="navbar">
         <ul>
@@ -100,33 +114,8 @@ Description: A two-column, fixed-width and lightweight template ideal for 1024x7
         </div>
         <br>
     </div>
-<!-- </div> -->
-<!-- <script>
-    const loader = document.querySelector(".loader");
-    window.onload = function(){
-      setTimeout(function(){
-        loader.style.opacity = "0";
-        setTimeout(function(){
-          loader.style.display = "none";
-        }, 500);
-      },1500);
-    }
- </script> -->
-    <!-- <script>
-        document.onreadystatechange = function() {
-            if (document.readyState !== "complete") {
-                document.querySelector(
-                  "body").style.visibility = "hidden";
-                document.querySelector(
-                  "#loader").style.visibility = "visible";
-            } else {
-                document.querySelector(
-                  "#loader").style.display = "none";
-                document.querySelector(
-                  "body").style.visibility = "visible";
-            }
-        };
-    </script> -->
+</div>
+
     <!-- end content -->
     <!-- <div style="clear: both;">&nbsp;</div>
 </div> -->
